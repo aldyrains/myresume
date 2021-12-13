@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import Header from './Components/Header';
+import About from './Components/About';
+import Resume from './Components/Resume';
+import Portfolio from './Components/Portfolio';
+import Testimonials from './Components/Testimonials';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import {main,portfolio,resume,testimonials} from '../src/resumeData.json'
+
+
+class App extends Component {
+  constructor(props){
+    super(props);
+
+    this.state = {
+      
+      resumeData:{
+        main: main,
+        portfolio: portfolio,
+        resume: resume,
+        testimonials: testimonials
+      }
+    }
+  }
+
+
+
+
+  render() {
+    console.log(main);
+    return (
+      <div className="App">
+        <Header data={main} />
+        <About data={this.state.resumeData.main} />
+        <Resume data={this.state.resumeData.resume} />
+        <Portfolio data={this.state.resumeData.portfolio} />
+        <Testimonials data={this.state.resumeData.testimonials} />
+        <Contact data={this.state.resumeData.main} />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;

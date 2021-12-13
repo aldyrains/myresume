@@ -1,0 +1,182 @@
+{
+    "main": {
+      "name":"Aldi Riansyah",
+      "occupation":"Mobile Developer. ",
+      "description":"I love to learn new things and create useful apps for everyone",
+      "image":"profilpi2.png",
+      "bio":"Hi i'm a Software Engineer Mainly focus on mobile platform development , have worked in fast paced and agile environment developing product and solution , apply proven technology stack and best practices technique. Specializing in writing functional, clean, readable and testable code base. Love to learn new things and create useful apps for everyone ",
+      "email": "Aldyrains30@gmail.com",
+      "phone": "(+62) 813-3322-8686",
+      "address":{
+        "street":"Pasir Koja street ",
+        "city":"Bandung",
+        "state":"Indonesia",
+        "zip": "40222"
+      },
+      "website": "http://www.parisphoto.com/paris/exhibitors",
+      "resumedownload":"https://drive.google.com/drive/folders/1hEhtD-L0uJzJrFpWEa6C4kNqMhM-vuKo?usp=sharing",
+      "social":[
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/aldi-riansyah/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"instagram",
+          "url":"https://www.instagram.com/aldyrains/",
+          "className":"fa fa-instagram"
+        },
+        {
+          "name":"github",
+          "url":"https://github.com/aldyrains/",
+          "className":"fa fa-github"
+        }
+      ]
+    },
+    "resume":{
+      "education":[
+        {
+          "school":"SMK Negeri 11 Bandung",
+          "degree":"High School",
+          "graduated":"May 2017",
+          "description":"In accordance with the competencies learned in RPL and the Competency Standards of RPL Graduates, RPL's flagship products are graduates who are able to build dynamic database and web-based applications. At the end of level III or class XII, every RPL student takes a vocational practice exam as one of the prerequisites for graduation, in the vocational competency test, every RPL student is required to create a dynamic web application under the guidance of productive RPL teachers, then the application will be tested by external examiners from the relevant DUDI, in this case DUDI which is engaged in the development of information systems or consultants engaged in Information Technology"
+        }
+      ],
+      "work":[
+        {
+          "company":"PT.Bussan Auto Finance",
+          "title":"Mobile Application Developer ",
+          "years":"Oct 2021 - Des 2021",
+          "description":"Responsibilities : Analyzing, design, and develop software based on user needs. \n Working on collaborate with all related departments in system development and maintenance. Working on collaborate as a member of a development team in the phase of design, development, andday-to-day operations. New Feature Development in BAF Mobile as consumer Apps- Working on Pradana Feature using React-Native stack"
+        },
+        {
+          "company":"PT. Bank Jago Tbk",
+          "title":"Junior Software Engineer",
+          "years":"Nov 2020 - Sep 2021",
+          "description":"Responsibilities : Working with product owners to refine and develop the product, from concept to implementation. Design & Build scalable, secure, maintainable and fault tolerant applications using Flutter Work with Product, Design counterparts and other stakeholders to ensure technology context is provided during design, planning OR prioritization Communicate, collaborate and work effectively across cross functional teams in a multi-cultural environment Continuously improve code quality, product execution, automation and customer delight Working on Application development at Bank Jago for Corporate, to be precise in Team BFS (Business Financial Solution) in the Nebula squad"
+        },
+        {
+          "company":"DKatalis Jakarta",
+          "title":"Junior Software Engineer",
+          "years":"Des 2019 - Oct 2020",
+          "description":"PX Application Development (People Experience) at DKatalis to create internal applications (recruitment process, HR, Employee, leave, Reimbursement, employee self-development, and many more) to be precise I was in the Athena PX squad team, using the Flutter stack and Node JS for BE"
+        }
+      ],
+      "skills":[
+        {
+          "name":"Flutter",
+          "level":"70%"
+        },
+        {
+          "name":"React Native",
+          "level":"50%"
+        },
+        {
+          "name":"Node JS",
+          "level":"40%"
+        },
+        {
+          "name":"React JS",
+          "level":"50%"
+        },
+        {
+          "name":"Java",
+          "level":"30%"
+        }
+        
+      ]
+    },
+    "portfolio":{
+      "projects": [
+        {
+          "title":"Mystic",
+          "description":"An image taking for a commercial project",
+          "category":"Photoshop",
+          "tags":"Branding, Web Design",
+          "image":"mystic.jpg",
+          "url":"http://port1.com",
+          "modal":"#modal-01"
+        },
+        {
+          "title":"Console",
+          "description":"A project for a travel blog taking with a digital camera and edited in photoshop.",
+          "category":"Photograhy",
+          "tags":"Branding, Photography",
+          "image":"console.jpg",
+          "url":"http://port2.com",
+          "modal":"#modal-02"
+        },
+        {
+          "title":"Judah",
+          "description":"A professional photoshoot for a cosmetic company. Advanced Photoshop retouching.",
+          "category":"Photoshop, Photography",
+          "tags":"Branding, Photography",
+          "image":"judah.jpg",
+          "url":"http://port3.com",
+          "modal":"#modal-03"
+        },
+        {
+          "title":"Into The Light",
+          "description":"Photojournalist imagery taken for a magazine documenting the history of the sport .",
+          "category":"Photography",
+          "tags":"Photography",
+          "image":"into-the-light.jpg",
+          "url":"http://port4.com",
+          "modal":"#modal-04"
+        },
+        {
+          "title":"Carlmer",
+          "description":"An editorial image for a top fashion magazine",
+          "category":"Branding",
+          "tags":"Branding,Photography",
+          "image":"carlmer.jpg",
+          "url":"http://port5.com",
+          "modal":"#modal-05"
+        },
+        {
+          "title":"Forgotten",
+          "description":"A documentary image as part of a larger project for an international charity.",
+          "category":"Photography",
+          "tags":"Photography",
+          "image":"forgotten.jpg",
+          "url":"http://port6.com",
+          "modal":"#modal-06"
+        },
+        {
+          "title":"The Street",
+          "description":"This image was for a commercial stylist and magazine editorial.",
+          "category":"Photography",
+          "tags":"Branding, Photoshop",
+          "image":"thestreet.jpg",
+          "url":"http://port7.com",
+          "modal":"#modal-07"
+        },
+        {
+          "title":"The young one",
+          "description":"This image was taken for a world wide Fashion store specialising in menswear.",
+          "category":"Photography",
+          "tags":"Photography",
+          "image":"theyoungone.jpg",
+          "url":"http://port8.com",
+          "modal":"#modal-08"
+        }
+      ]
+    },
+    "testimonials":{
+      "testimonials":[
+        {
+          "text":"All succesful people en and women are big dreamers. They imagine  what their future could be ideal in every respect, and then they work everyday toward their distant vision, that goal or pupose.",
+          "user":"Brian tracy"
+        },
+        {
+          "text":"Success is not the key to happiness. Happiness is the key to success. If you love your job, you will be a successful person",
+          "user":"Albert Schweitzer"
+        },
+        {
+          "text":"It's never too late to become the person you want to be",
+          "user":"George Eliot"
+        }
+      ]
+    }
+  }
+  
