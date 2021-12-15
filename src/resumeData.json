@@ -90,48 +90,48 @@
       "projects": [
         {
           "title":"PT. Bussan Auto Finance",
-          "description":"An image taking for a commercial project",
+          "description":"PT Bussan Auto Finance (“BAF”) is one of the leading financing company in Indonesia focusing on new Yamaha brand motorcycle, used motorcycle, sharia financing, car, multi-products (electronics & home appliances), and agricultural machinery.",
           "category":"Mobile Application Developer",
           "tags":"React Native , mobile apps",
           "image":"baflogo.png",
-          "url":"http://port1.com",
-          "modal":"#modal-01"
+          "url":"https://www.baf.id/",
+          "modal":"baf"
         },
         {
           "title":"PT. Bank Jago Tbk",
-          "description":"A project for a travel blog taking with a digital camera and edited in photoshop.",
+          "description":"As a tech-based bank, we see finance from a life perspective, creating products that actually help customers with their daily pains. Enabled by cutting-edge technology, we aim for breakthroughs in the financial world; ones that are able to enhance the growth of millions.",
           "category":"Software Engineer , Frontend",
           "tags":"Flutter , Website",
           "image":"jagologo.png",
-          "url":"http://port2.com",
-          "modal":"#modal-02"
+          "url":"https://jago.com/",
+          "modal":"jago"
         },
         {
           "title":"Dkatalis Jakarta",
-          "description":"A professional photoshoot for a cosmetic company. Advanced Photoshop retouching.",
+          "description":"We are DKatalis, a highly adaptive tech company that is driven by the desire to always be better. Our passion in creating an environment of growth and excellence enables us to build digital solutions with bleeding edge technology. We are the proud engineering arms that create Jago digital bank app, Amaan’s digital sharia and many more digital solutions to come.",
           "category":"Software Engineer , Mobile apps",
           "tags":"Flutter , Mobile Apps",
           "image":"dkatalisa.png",
-          "url":"http://port3.com",
-          "modal":"#modal-03"
+          "url":"https://dkatalis.co/",
+          "modal":"dkatalis"
         },
         {
           "title":"PT. Enigma Cipta Humanika",
-          "description":"Photojournalist imagery taken for a magazine documenting the history of the sport .",
+          "description":"ENIGMA CAMP memiliki suatu model Bootcamp IT yang lengkap. Kami tidak saja menyediakan penempatan IT talent tetapi juga memberikan solusi untuk memenuhi kebutuhan sumberdaya IT pada perusahaan anda dan pengembangan sumberdaya manusia yang berkelanjutan.",
           "category":"Bootcamp , Fullstack Engineer",
           "tags":"Fullstack Develover",
           "image":"enigma.png",
-          "url":"http://port4.com",
-          "modal":"#modal-04"
+          "url":"https://www.enigmacamp.com/",
+          "modal":"enigma"
         },
         {
           "title":"Digital Talent Scholarship",
-          "description":"An editorial image for a top fashion magazine",
+          "description":"Digital Talent Scholarship adalah program beasiswa pelatihan talenta digital yang bertujuan untuk meningkatkan kemampuan, keterampilan dan daya saing SDM di bidang teknologi Informasi untuk mendukung transformasi digital dan peningkatan ekonomi digital Indonesia menuju Industri 4.0.",
           "category":"Bootcamp, Junior Mobile Developer",
           "tags":"Mobile Apps , Java language",
           "image":"dtslogo.png",
-          "url":"http://port5.com",
-          "modal":"#modal-05"
+          "url":"https://digitalent.kominfo.go.id/",
+          "modal":"Digital-talent"
         },
         {
           "title":"PT. Pos Indonesia",
@@ -139,8 +139,8 @@
           "category":"Seasonal",
           "tags":"PHP",
           "image":"poslogo.png",
-          "url":"http://port6.com",
-          "modal":"#modal-06"
+          "url":"https://www.posindonesia.co.id/",
+          "modal":"#pos-indonesia"
         }
       ]
     },
