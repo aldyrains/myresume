@@ -61,7 +61,7 @@ class Resume extends Component {
             <h1><span>Skills</span></h1>
          </div>
          <div className="nine columns main-col">
-            <p>The main skill sets below outline the variety of skills performed within my current role as middle Programmer at DKatalis and Jago Bank in Jakarta, Indonesia..
+            <p>Some experiences that I have learned and mastered
             </p>
 				<div className="bars">
 				   <ul className="skills">

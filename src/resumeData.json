@@ -89,76 +89,58 @@
     "portfolio":{
       "projects": [
         {
-          "title":"Mystic",
+          "title":"PT. Bussan Auto Finance",
           "description":"An image taking for a commercial project",
-          "category":"Photoshop",
-          "tags":"Branding, Web Design",
-          "image":"mystic.jpg",
+          "category":"Mobile Application Developer",
+          "tags":"React Native , mobile apps",
+          "image":"baflogo.png",
           "url":"http://port1.com",
           "modal":"#modal-01"
         },
         {
-          "title":"Console",
+          "title":"PT. Bank Jago Tbk",
           "description":"A project for a travel blog taking with a digital camera and edited in photoshop.",
-          "category":"Photograhy",
-          "tags":"Branding, Photography",
-          "image":"console.jpg",
+          "category":"Software Engineer , Frontend",
+          "tags":"Flutter , Website",
+          "image":"jagologo.png",
           "url":"http://port2.com",
           "modal":"#modal-02"
         },
         {
-          "title":"Judah",
+          "title":"Dkatalis Jakarta",
           "description":"A professional photoshoot for a cosmetic company. Advanced Photoshop retouching.",
-          "category":"Photoshop, Photography",
-          "tags":"Branding, Photography",
-          "image":"judah.jpg",
+          "category":"Software Engineer , Mobile apps",
+          "tags":"Flutter , Mobile Apps",
+          "image":"dkatalisa.png",
           "url":"http://port3.com",
           "modal":"#modal-03"
         },
         {
-          "title":"Into The Light",
+          "title":"PT. Enigma Cipta Humanika",
           "description":"Photojournalist imagery taken for a magazine documenting the history of the sport .",
-          "category":"Photography",
-          "tags":"Photography",
-          "image":"into-the-light.jpg",
+          "category":"Bootcamp , Fullstack Engineer",
+          "tags":"Fullstack Develover",
+          "image":"enigma.png",
           "url":"http://port4.com",
           "modal":"#modal-04"
         },
         {
-          "title":"Carlmer",
+          "title":"Digital Talent Scholarship",
           "description":"An editorial image for a top fashion magazine",
-          "category":"Branding",
-          "tags":"Branding,Photography",
-          "image":"carlmer.jpg",
+          "category":"Bootcamp, Junior Mobile Developer",
+          "tags":"Mobile Apps , Java language",
+          "image":"dtslogo.png",
           "url":"http://port5.com",
           "modal":"#modal-05"
         },
         {
-          "title":"Forgotten",
+          "title":"PT. Pos Indonesia",
           "description":"A documentary image as part of a larger project for an international charity.",
-          "category":"Photography",
-          "tags":"Photography",
-          "image":"forgotten.jpg",
+          "category":"Seasonal",
+          "tags":"PHP",
+          "image":"poslogo.png",
           "url":"http://port6.com",
           "modal":"#modal-06"
-        },
-        {
-          "title":"The Street",
-          "description":"This image was for a commercial stylist and magazine editorial.",
-          "category":"Photography",
-          "tags":"Branding, Photoshop",
-          "image":"thestreet.jpg",
-          "url":"http://port7.com",
-          "modal":"#modal-07"
-        },
-        {
-          "title":"The young one",
-          "description":"This image was taken for a world wide Fashion store specialising in menswear.",
-          "category":"Photography",
-          "tags":"Photography",
-          "image":"theyoungone.jpg",
-          "url":"http://port8.com",
-          "modal":"#modal-08"
         }
       ]
     },
