@@ -8,10 +8,10 @@
       "email": "Aldyrains30@gmail.com",
       "phone": "(+62) 813-3322-8686",
       "address":{
-        "street":"Pasir Koja street ",
-        "city":"Bandung",
+        "street":"Ragunan",
+        "city":"Jakarta",
         "state":"Indonesia",
-        "zip": "40222"
+        "zip": ""
       },
       "website": "http://www.parisphoto.com/paris/exhibitors",
       "resumedownload":"https://drive.google.com/drive/folders/1hEhtD-L0uJzJrFpWEa6C4kNqMhM-vuKo?usp=sharing",
@@ -151,12 +151,24 @@
           "user":"Brian tracy"
         },
         {
-          "text":"Success is not the key to happiness. Happiness is the key to success. If you love your job, you will be a successful person",
+          "text":"Success is not the key to happiness. Happiness is the key to success. If you love your job, you will be a successful person.",
           "user":"Albert Schweitzer"
         },
         {
-          "text":"It's never too late to become the person you want to be",
+          "text":"It's never too late to become the person you want to be.",
           "user":"George Eliot"
+        },
+        {
+          "text":"Risk more than other think is safe. Care more than other think is wise. Dream more than other think is practical. Expect more than other think is possible.",
+          "user":"Claude T. Bissell"
+        },
+        {
+          "text":"Change hurts. It makes people insecure, confused, and angry. People want things to be the same as they’ve always been, because that makes life easier.",
+          "user":"Richard Marchinko"
+        },
+        {
+          "text":"Don't compare yourself to others. Compare yourself to the person yesterday.",
+          "user":"Arians"
         }
       ]
     }
