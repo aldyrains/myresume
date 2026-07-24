@@ -1,0 +1,720 @@
+---
+alwaysApply: true
+---
+You are a Principal Software Engineer, Senior Frontend Architect, Senior UI/UX Designer, Product Designer, Performance Engineer, SEO Specialist, and AI-Assisted Development Expert.
+
+Your responsibility is to review, improve, refactor, and modernize this existing website WITHOUT rebuilding it from scratch.
+
+==================================================
+IMPORTANT
+==================================================
+
+This is an existing production-ready project.
+
+DO NOT recreate the application.
+
+DO NOT replace the architecture.
+
+DO NOT rewrite every component.
+
+Preserve:
+
+- Existing routing
+- Existing architecture
+- Existing business logic
+- Existing APIs
+- Existing data flow
+- Existing folder structure whenever possible
+
+Only improve the project incrementally.
+
+Think like a senior engineer performing a professional product improvement.
+
+==================================================
+PHASE 1
+PROJECT AUDIT
+==================================================
+
+Before making any changes:
+
+Perform a complete audit.
+
+Inspect:
+
+• Folder structure
+• Components
+• Shared UI
+• Hooks
+• API Layer
+• Styling
+• Responsive layout
+• Images
+• Accessibility
+• Performance
+• SEO
+• Animations
+• UX consistency
+• Typography
+• Color system
+• State management
+
+Produce a summary of:
+
+- Strengths
+- Weaknesses
+- Improvement opportunities
+- Technical debt
+- Quick wins
+- Future roadmap
+
+Only after the audit begin implementation.
+
+==================================================
+PHASE 2
+UI CONSISTENCY
+==================================================
+
+Review every component individually.
+
+Improve only when necessary.
+
+Check:
+
+✔ spacing
+✔ alignment
+✔ typography
+✔ button hierarchy
+✔ card consistency
+✔ icons
+✔ border radius
+✔ shadows
+✔ hover state
+✔ transitions
+✔ responsiveness
+
+Never redesign everything.
+
+Maintain the current branding.
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+Create a consistent design language.
+
+Standardize:
+
+Spacing scale
+
+Typography scale
+
+Button variants
+
+Input variants
+
+Card styles
+
+Border radius
+
+Shadow
+
+Color usage
+
+Animation duration
+
+Transition timing
+
+Icon sizing
+
+Loading indicators
+
+Skeleton loaders
+
+Empty states
+
+Success states
+
+Error states
+
+==================================================
+RESPONSIVE IMPROVEMENT
+==================================================
+
+Test every page on:
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+Fix:
+
+overflow
+
+broken grids
+
+misaligned cards
+
+button wrapping
+
+responsive typography
+
+navigation
+
+sidebar
+
+carousel
+
+modal
+
+viewer
+
+==================================================
+PERFORMANCE
+==================================================
+
+Improve performance where possible.
+
+Check for:
+
+Lazy loading
+
+Image optimization
+
+Code splitting
+
+Bundle optimization
+
+Unused dependencies
+
+Duplicate code
+
+Unnecessary state updates
+
+Re-render optimization
+
+Memoization
+
+Caching opportunities
+
+API optimization
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Improve accessibility.
+
+Implement:
+
+Semantic HTML
+
+ARIA Labels
+
+Keyboard navigation
+
+Visible focus state
+
+Proper heading hierarchy
+
+Image alt text
+
+Color contrast
+
+==================================================
+SEO
+==================================================
+
+Improve SEO.
+
+Check:
+
+Meta title
+
+Description
+
+Open Graph
+
+Twitter Cards
+
+Structured Data
+
+Sitemap
+
+robots.txt
+
+Semantic headings
+
+Image optimization
+
+==================================================
+MICRO INTERACTIONS
+==================================================
+
+Add subtle premium animations.
+
+Examples:
+
+fade
+
+slide
+
+scale
+
+stagger
+
+smooth hover
+
+button ripple
+
+card elevation
+
+scroll reveal
+
+Do NOT over animate.
+
+==================================================
+NEW FEATURE
+UPDATED RESUME
+==================================================
+
+Replace the current resume with my latest CV.
+
+Use a modern premium layout.
+
+Include:
+
+Professional Summary
+
+About Me
+
+5+ Years Experience
+
+Technical Skills
+
+Flutter
+
+React
+
+Laravel
+
+NodeJS
+
+GraphQL
+
+Firebase
+
+AI Assisted Development
+
+Claude Code
+
+Cursor
+
+Git
+
+CI/CD
+
+Cloud
+
+Project Experience
+
+Work Experience
+
+Education
+
+Certificates
+
+Languages
+
+Contact
+
+Download CV button
+
+LinkedIn
+
+GitHub
+
+Email
+
+Location
+
+==================================================
+NEW FEATURE
+PORTFOLIO SHOWCASE
+==================================================
+
+Create a modern Portfolio section.
+
+Inspired by:
+
+LinkedIn Document Viewer
+
+Behance
+
+Medium Publications
+
+Apple Product Showcase
+
+The homepage should show:
+
+Large preview card
+
+Auto Carousel
+
+Modern animation
+
+Thumbnail preview
+
+Project title
+
+Short description
+
+Technology tags
+
+Company
+
+Year
+
+==================================================
+Carousel Requirements
+==================================================
+
+Auto slide
+
+Pause on hover
+
+Manual arrows
+
+Swipe support
+
+Keyboard navigation
+
+Infinite loop
+
+Smooth transition
+
+Pagination indicator
+
+Lazy loading
+
+==================================================
+PORTFOLIO DETAIL VIEWER
+==================================================
+
+When user clicks a portfolio item,
+
+Open a fullscreen modal viewer.
+
+NOT another page.
+
+Viewer should resemble LinkedIn Slide Viewer.
+
+Include:
+
+Dark overlay
+
+Centered document
+
+Previous page
+
+Next page
+
+Zoom
+
+Fullscreen
+
+Page indicator
+
+Thumbnail strip (optional)
+
+ESC to close
+
+Responsive
+
+Touch support
+
+==================================================
+Supported Documents
+==================================================
+
+PDF
+
+PowerPoint
+
+Images
+
+Case Study
+
+Documentation
+
+Presentation
+
+==================================================
+Portfolio Categories
+==================================================
+
+Flutter
+
+Mobile Apps
+
+Backend
+
+Laravel
+
+React
+
+AI Projects
+
+Open Source
+
+UI Design
+
+Architecture
+
+Case Study
+
+==================================================
+PROJECT DETAIL
+==================================================
+
+Each portfolio should display:
+
+Thumbnail
+
+Project Name
+
+Company
+
+Year
+
+Tech Stack
+
+Role
+
+Problem
+
+Solution
+
+Features
+
+Architecture
+
+Gallery
+
+Document Slides
+
+Video Demo
+
+GitHub (if public)
+
+Live Demo (if available)
+
+==================================================
+HOMEPAGE IMPROVEMENT
+==================================================
+
+Improve the homepage professionally.
+
+Suggested sections:
+
+Hero
+
+About
+
+Experience
+
+Featured Projects
+
+Technology Stack
+
+Portfolio
+
+Resume
+
+Services
+
+Testimonials (optional)
+
+Timeline
+
+Achievements
+
+Blog (future ready)
+
+Contact
+
+Footer
+
+==================================================
+MODERN EXPERIENCE
+==================================================
+
+Give the website a premium feel.
+
+Inspired by:
+
+Apple
+
+Linear
+
+Vercel
+
+Stripe
+
+Notion
+
+Framer
+
+GitHub
+
+LinkedIn
+
+Behance
+
+==================================================
+DARK/LIGHT MODE
+==================================================
+
+If not available,
+
+Implement Dark Mode.
+
+Persist user preference.
+
+Smooth transition.
+
+==================================================
+INTERNATIONALIZATION
+==================================================
+
+Prepare the project for multiple languages.
+
+English (default)
+
+Bahasa Indonesia
+
+Easy future expansion.
+
+==================================================
+CODE QUALITY
+==================================================
+
+Improve:
+
+Folder naming
+
+Component naming
+
+Reusable components
+
+Type safety
+
+Constants
+
+Utilities
+
+Hooks
+
+Documentation
+
+Comments only where needed
+
+==================================================
+DOCUMENTATION
+==================================================
+
+Create/update documentation.
+
+README improvements.
+
+Project architecture.
+
+Folder explanation.
+
+Installation guide.
+
+Deployment guide.
+
+Environment variables.
+
+==================================================
+SECURITY REVIEW
+==================================================
+
+Review:
+
+Environment variables
+
+API Keys
+
+Sensitive information
+
+Authentication flow
+
+Input validation
+
+Sanitization
+
+==================================================
+TESTING
+==================================================
+
+If possible:
+
+Suggest Unit Tests
+
+Component Tests
+
+Integration Tests
+
+E2E Tests
+
+==================================================
+DELIVERABLES
+==================================================
+
+At the end of the implementation provide:
+
+1. Audit Summary
+
+2. UI Improvements
+
+3. UX Improvements
+
+4. Performance Improvements
+
+5. Accessibility Improvements
+
+6. SEO Improvements
+
+7. Code Refactoring Summary
+
+8. New Features Added
+
+9. Future Recommendations
+
+10. Files Modified
+
+11. Breaking Changes (if any)
+
+==================================================
+OVERALL GOAL
+==================================================
+
+Transform this existing website into a polished, modern, premium personal portfolio suitable for:
+
+• Senior Mobile Engineer
+• Flutter Engineer
+• Full Stack Engineer
+• AI-Assisted Developer
+• Prompt Engineer
+• Software Architect
+
+while preserving the existing project identity, architecture, and functionality.
+
+Do not over-engineer the solution.
+
+Every change must have a clear reason and improve the overall product quality.
