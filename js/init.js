@@ -212,10 +212,19 @@ var PROFILE_DATA = {
    ],
    work: [
       {
+         company: 'Autumn Systems',
+         role: 'Software Engineer',
+         years: '2026.08 - Present',
+         location: 'Singapore (Remote)',
+         bullets: [
+            'Front-end and mobile application development for a Singapore-based team, working fully remote.'
+         ]
+      },
+      {
          company: 'PT Gajah Nusantara Raya',
          role: 'Mobile Application Developer',
-         years: '2025.09 - Present',
-         location: 'Bogor, Indonesia',
+         years: '2025.09 - 2026.08',
+         location: 'South Jakarta, Indonesia (Hybrid)',
          bullets: [
             'Built and shipped Strade Mobile (AI-powered trading) to Google Play and App Store with BLoC, Socket.IO, TradingView, OCR, and payment gateway.',
             'Developed Satu Agen wholesale marketplace with offline-first SQLite sync, QR/barcode, thermal printing, and logistics integration.',
@@ -226,8 +235,8 @@ var PROFILE_DATA = {
       {
          company: 'PT Mitra Konsultansi Indonesia',
          role: 'Freelancer Flutter Developer',
-         years: '2025.03 - 2025.08',
-         location: 'Jakarta, Indonesia',
+         years: '2025.03 - 2025.06',
+         location: 'Bandung, Indonesia (Remote)',
          bullets: [
             'Engineered GPS tracking for BTN Smart Collection with real-time location updates.',
             'Optimized API integration and synchronization, cutting app load time by ~20%.',
@@ -249,7 +258,7 @@ var PROFILE_DATA = {
          company: 'Risada Damai Sejahtera',
          role: 'Mobile Application Developer',
          years: '2023.04 - 2024.05',
-         location: 'Jakarta, Indonesia',
+         location: 'Central Jakarta, Indonesia',
          bullets: [
             'Led Flutter development for myEV E-Trans driver and merchant apps.',
             'Integrated Google Maps APIs for routing, positioning, and map-driven workflows.',
@@ -259,7 +268,7 @@ var PROFILE_DATA = {
       {
          company: 'PT Mega Giga Solusindo / ICON+',
          role: 'Mobile Application Developer',
-         years: '2022.01 - 2023.03',
+         years: '2022.02 - 2023.03',
          location: 'Jakarta, Indonesia',
          bullets: [
             'Developed Sinopsis and PESA apps for PLN employees; supported 10,000+ monthly active users.',
@@ -300,12 +309,12 @@ var PROFILE_DATA = {
       },
       {
          company: 'PT Enigma Cipta Humanika (Enigma Camp)',
-         role: 'Software Engineer',
-         years: '2019.12 - 2021.12',
+         role: 'Full Stack Engineer (Bootcamp)',
+         years: '2019.10 - 2019.12',
          location: 'Jakarta, Indonesia',
          bullets: [
             'Completed immersive project-based bootcamp covering technical and soft skills.',
-            'Secured multi-year placements at DKatalis, Bank Jago, and Bussan Auto Finance on production products.'
+            'Placed afterwards at DKatalis, Bank Jago, and Bussan Auto Finance on production products.'
          ]
       }
    ],
@@ -828,9 +837,9 @@ function renderPortfolioSlide(item, index) {
       '<button type="button" class="portfolio-slide-hit" data-open-portfolio="' + escapeHtml(item.id) + '" aria-label="' + escapeHtml(t('viewProject') + ': ' + item.title) + '">',
       '<div class="portfolio-preview">',
       '<img src="' + assetUrl(item.thumb) + '" alt="' + escapeHtml(item.title) + ' preview" loading="lazy" width="720" height="405" />',
-      '<span class="portfolio-year">' + escapeHtml(item.year) + '</span>',
       '</div>',
       '<div class="portfolio-copy">',
+      '<span class="portfolio-year">' + escapeHtml(item.year) + '</span>',
       '<p class="portfolio-company">' + escapeHtml(item.company) + '</p>',
       '<h3>' + escapeHtml(item.title) + '</h3>',
       '<p class="portfolio-summary">' + escapeHtml(item.summary) + '</p>',
