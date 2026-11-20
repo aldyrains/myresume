@@ -170,6 +170,7 @@ var PROFILE_DATA = {
    linkedin: 'https://www.linkedin.com/in/aldi-riansyah/',
    github: 'https://aldyrains.github.io/myresume',
    certificates: 'https://bit.ly/AldiCertificate',
+   gamesSite: 'https://aldyrains.github.io/',
    resumeFile: 'aldi-riansyah-resume.pdf',
    portfolioFile: 'aldi-riansyah-portfolio-2026.pdf',
    yearsExperience: '4+',
@@ -629,6 +630,7 @@ var PROFILE_DATA = {
          aboutTitle: 'About Me',
          contactTitle: 'Contact',
          downloadResume: 'Download Resume',
+         gamesLink: 'Indie games (WNI Life Simulator)',
          educationLabel: 'Education',
          workLabel: 'Experience',
          skillsLabel: 'Skills',
@@ -669,6 +671,7 @@ var PROFILE_DATA = {
          aboutTitle: 'Tentang Saya',
          contactTitle: 'Kontak',
          downloadResume: 'Unduh Resume',
+         gamesLink: 'Game indie (WNI Life Simulator)',
          educationLabel: 'Pendidikan',
          workLabel: 'Pengalaman',
          skillsLabel: 'Keahlian',
@@ -1530,7 +1533,8 @@ function applyResumeContent() {
       '<li><a href="' + PROFILE_DATA.linkedin + '" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>',
       '<li><a href="' + PROFILE_DATA.whatsapp + '" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa fa-whatsapp"></i></a></li>',
       '<li><a href="mailto:' + PROFILE_DATA.email + '" aria-label="Email"><i class="fa fa-envelope"></i></a></li>',
-      '<li><a href="' + PROFILE_DATA.certificates + '" target="_blank" rel="noopener noreferrer" aria-label="Certificates"><i class="fa fa-certificate"></i></a></li>'
+      '<li><a href="' + PROFILE_DATA.certificates + '" target="_blank" rel="noopener noreferrer" aria-label="Certificates"><i class="fa fa-certificate"></i></a></li>',
+      '<li><a href="' + PROFILE_DATA.gamesSite + '" aria-label="' + escapeHtml(t('gamesLink')) + '" title="' + escapeHtml(t('gamesLink')) + '"><i class="fa fa-gamepad"></i></a></li>'
    ].join('');
    $('#home .banner-text .social').html(socialHtml);
 
@@ -1657,6 +1661,7 @@ function applyResumeContent() {
       '<a class="contact-shortcut" href="mailto:' + PROFILE_DATA.email + '"><i class="fa fa-envelope"></i><span>' + escapeHtml(PROFILE_DATA.email) + '</span></a>',
       '<a class="contact-shortcut" href="' + resumeHref + '" download="' + escapeHtml(PROFILE_DATA.resumeFile) + '"><i class="fa fa-download"></i><span>' + escapeHtml(t('downloadResume')) + '</span></a>',
       '<a class="contact-shortcut" href="' + assetUrl(PROFILE_DATA.portfolioFile) + '" target="_blank" rel="noopener noreferrer"><i class="fa fa-file-pdf-o"></i><span>' + escapeHtml(t('openPortfolio')) + '</span></a>',
+      '<a class="contact-shortcut" href="' + PROFILE_DATA.gamesSite + '"><i class="fa fa-gamepad"></i><span>' + escapeHtml(t('gamesLink')) + '</span></a>',
       '</div>',
       '</div>',
       '</div>'
